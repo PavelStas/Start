@@ -10,10 +10,16 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            string name;
+            string first,last;
             Console.WriteLine("Enter your name:");
-            name = Console.ReadLine();
-            Console.WriteLine("Hello, {0}", name);
+
+           
+
+            first= Console.ReadLine();
+            Console.WriteLine("Enter your name:");
+            last= Console.ReadLine();
+            Console.WriteLine("Hello {0} {1}", first,last);
+
             Console.ReadLine();
         }
     }
